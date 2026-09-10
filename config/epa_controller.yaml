@@ -1,0 +1,56 @@
+epa_controller:
+  ros__parameters:
+    # --- Input mode ---
+    input_mode: "topic" # "h5" or "topic"
+    # Only used when input_mode is "h5"; set to an absolute path
+    h5_filepath: ""
+    t_start: 15.0 # Start time in H5 data (seconds)
+    duration: 0.005 # Time window per batch (seconds)
+    tau: 0.02 # Exponential filter time constant
+
+    # --- Detector ---
+    n_centroids: 4
+
+    # --- Camera calibration (OpenCV FileStorage XML) ---
+    # Left empty on purpose: the launch files resolve it from this package's
+    # installed config/ directory. Set an absolute path here, or pass
+    # calib_file:=/path/to.xml on the launch command line, to override.
+    calib_file: ""
+
+    # --- Quadrotor geometry ---
+    front_arm_length: 0.13125
+    rear_arm_length: 0.11625
+    front_back_offset: 0.09625
+
+    # --- PID controller ---
+    controller_enabled: true
+
+    # Position gains (x, y, z)
+    pid_kp: 1.5
+    pid_ki: 0.2
+    pid_kd: 0.1
+
+    # Yaw gains
+    pid_kp_yaw: 1.5
+    pid_ki_yaw: 0.1
+    pid_kd_yaw: 0.05
+
+    # Target pose (camera frame)
+    target_x: 0.0
+    target_y: 0.0
+    target_z: 1.0
+    target_yaw: 0.0
+
+    # Output limits
+    max_vel_xy: 0.5 # m/s
+    max_vel_z: 0.2 # m/s
+    max_yaw_rate: 3.14 # rad/s
+
+    # --- Landing sequence parameters ---
+    landing_altitude: 0.5   # meters (target altitude for landing sequence hold)
+    landing_xy_thresh: 0.05 # meters (horizontal tolerance)
+    landing_z_thresh: 0.1  # meters (vertical tolerance)
+    landing_hold_time: 3.0  # seconds (how long thresholds must be satisfied)
+    landing_descent_rate: 0.3  # m/s (how fast to lower the target altitude)
+    landing_timeout: 30.0     # seconds (max time for entire landing sequence)
+    landing_pose_grace: 0.5   # seconds (grace period for brief pose loss during hold)

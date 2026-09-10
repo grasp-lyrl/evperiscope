@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Media / generated output
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+# ...except the assets the README embeds
+!assets/**
+
+# Event data
+*.h5
+
+# ROS / colcon build artifacts
+build/
+install/
+log/
+logs/
+
+# Temporary files
+*.tmp
+
+# IDE files
+.idea/
+.vscode/
