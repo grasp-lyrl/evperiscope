@@ -14,9 +14,7 @@ GRASP Laboratory, University of Pennsylvania
 [![Project Page](https://img.shields.io/badge/Project%20Page-1a73e8?style=for-the-badge&logo=firefox&logoColor=white)](https://ongdexter.github.io/evperiscope)
 [![Video](https://img.shields.io/badge/Video-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1HxsL9gdY0HvlqUsuwir866r7UxwZev7N/view?usp=drive_link)
 
-<a href="assets/system_overview.mp4">
-  <img src="assets/system_overview.gif" width="75%" alt="EVPeriscope system overview">
-</a>
+https://github.com/user-attachments/assets/e1b10645-195e-4a07-9a44-6dcb75b8ef6b
 
 </div>
 
