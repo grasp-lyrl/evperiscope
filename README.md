@@ -98,4 +98,18 @@ ros2 run rqt_image_view rqt_image_view /epa/debug_image
 (red, turning blue once the detection is stable), the reprojected quadrotor
 model (green circles) and the estimated body X axis (red arrow). The pose estimate itself is on `/epa/pose`.
 
-<!-- ## Citation -->
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@misc{ong2026evperiscope,
+      title={EVPeriscope: Extended Perception across Aerial and Ground Vehicles with Event-based Propeller Tracking}, 
+      author={Dexter Ong and Vijay Kumar and Pratik Chaudhari},
+      year={2026},
+      eprint={2609.11920},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2609.11920}, 
+}
+```
