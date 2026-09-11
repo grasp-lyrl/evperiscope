@@ -10,7 +10,7 @@ GRASP Laboratory, University of Pennsylvania
 
 **International Symposium of Robotics Research (ISRR) 2026**
 
-[![Paper](https://img.shields.io/badge/Paper-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white)](https://ongdexter.github.io/evperiscope/static/pdfs/evperiscope.pdf)
+[![Paper](https://img.shields.io/badge/Paper-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.11920)
 [![Project Page](https://img.shields.io/badge/Project%20Page-1a73e8?style=for-the-badge&logo=firefox&logoColor=white)](https://ongdexter.github.io/evperiscope)
 [![Video](https://img.shields.io/badge/Video-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1HxsL9gdY0HvlqUsuwir866r7UxwZev7N/view?usp=drive_link)
 
